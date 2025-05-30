@@ -31,8 +31,11 @@ li {
     list-style: none; 
     color: inherit; 
 }
+li:hover label{
+    cursor: pointer;
+}
 
-input[type="checkbox"] {
+input[type="radio"] {
     width: 20px;
     height: 20px;
     accent-color: #7456FA;
